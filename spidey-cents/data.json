@@ -1,0 +1,104 @@
+{ 
+    "Characters": {
+        "Peter Parker": {
+        	"Happy": "img/c_spiderman.png",
+        	"Thinking": "img/c_cat_thinking.png",
+        	"Laughing": "https://www.animatedimages.org/data/media/1309/animated-laughing-image-0110.gif"
+        },
+        "Rabbit": {
+        	"Happy": "img/c_rabbit.png",
+        	"Thinking": "",
+        	"Laughing": ""
+        },
+        "Kitties": {
+            "Happy": "img/c_kitties.png",
+            "Thinking": "",
+            "Laughing": ""
+        },
+        "Me": {
+        	"Happy": "",
+        	"Thinking": "",
+        	"Laughing": ""
+        }
+    },
+    
+    "Scene1": {
+    	"Background": "img/bg_city.png",
+    	"PAGES": {
+			"Page0" : {
+				"Character": "Peter Parker",
+				"Sprite": "Happy",
+				"PageText": "*Yawn* Just had a good crimefighting spree--"
+			},
+            "Page1" : {
+				"Character": "Peter Parker",
+				"Sprite": "Happy",
+				"PageText": "I need to go to a bank.",
+                "Options":
+				{
+					"Head over now!": "Page10",
+					"Dilly dally": "Page2"
+				}
+			},
+            "Page2" : {
+				"Character": "Peter Parker",
+				"Sprite": "Thinking",
+				"PageText": "*twiddles thumbs*"
+			},
+            "Page3" : {
+				"Character": "Peter Parker",
+				"Sprite": "Laughing",
+                "Options":
+				{
+					"Head over now!": "Page10",
+					"Dilly dally": "Page2"
+				}			
+            },            
+            "Page10" : {
+				"Character": "Peter Parker",
+				"Sprite": "Happy",
+				"PageText": "And voila! I'm at the bank."
+				
+			},
+			"Page11" : {
+				"Character": "Peter Parker",
+				"Sprite": "Thinking",
+				"PageText": "Hm... just thinking about how much I should withdraw."
+				
+			},
+			"Page12" : {
+				"Character": "Peter Parker",
+				"Sprite": "Laughing",
+				"PageText": "I'm a teen who works a full-time job outside of school. Even though I'm moonlighting, I'm not earning any money whatsoever. It's no surprise I'm broke! What am I even thinking? Hahahahaha."
+				
+			},
+			"Page13" : {
+				"Character": "Kitties",
+				"Sprite": "Happy",
+				"PageText": "Are you our mother?"
+				
+			},
+			"Page14" : {
+				"Character": "Peter Parker",
+				"Sprite": "Thinking",
+				"PageText": "No."
+				
+			},
+			"Page15" : {
+				"Character": "Rabbit",
+				"Sprite": "Happy",
+				"PageText": "Sorry about my babies' question there. How can I help you?"
+				
+			},
+			"Page16" : {
+				"Character": "Me",
+				"Sprite": "Happy",
+				"PageText": "The End!",
+                "Options":
+				{
+					"Play again?": "Page0"
+				}				
+			}
+		}
+    }
+}

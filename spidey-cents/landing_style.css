@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+font-family: 'VT323', monospace;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex;
+  background:url(spidey/intro_bg.jpg) no-repeat;
+  background-size: cover;
+}
+
+header {
+  position: relative;
+  top: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  position: relative;
+  color: #000;
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+header .navigation a {
+  color: #FFF;
+  background: black;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 2px 15px;
+  border-radius: 100x;
+  transition: 0.3s;
+  transition-property: background;
+}
+
+header .navigation a:not(:last-child) {
+  margin-right: 30px;
+}
+
+header .navigation a:hover {
+  background: #FFF;
+  color: #000;
+}
+
+.content {
+  max-width: 200px;
+  margin: 60px 100px;
+}
+
+
+.content .play-btn {
+  background: url(spidey/default_play.png);
+}
+
+

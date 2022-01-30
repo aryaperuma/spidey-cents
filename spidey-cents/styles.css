@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Open+Sans&family=VT323&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Open+Sans&display=swap');
+*/
+:root {
+    --text-color: #000000;
+    --text-background-color: #ffffff;
+    --border-color: #000000;
+    --textbox-border-color: purple;
+  }
+  
+  *{
+      padding:0;
+      margin:0;
+  }
+  
+  body{
+      font-family: 'Mochiy Pop P One', sans-serif;
+      font-family: 'Open Sans', sans-serif;
+      font-family: 'VT323', monospace;
+/*
+      font-family: 'Mochiy Pop P One', sans-serif;
+      font-family: 'Open Sans', sans-serif;
+*/ 
+      font-size:32px;
+      color: var(--text-color);
+  }
+  
+  #mainbox {
+      /* adjust game dimensions here */
+      width: 100vmin;
+      height: 80vmin;      
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-size: cover;
+      border: 0.125vmin solid var(--border-color);
+  }
+  
+  #textbox {      
+      border: 0.125vmin solid var(--textbox-border-color);
+      background: var(--text-background-color);
+      width: 87%;
+      height: 20%;
+      padding: 0.5rem;
+      overflow: auto;
+      word-break: break-word;
+      margin: auto;
+      position: absolute;
+      bottom: 50%;
+      left: 50%;
+      transform: translate(-50%, 0);
+  }
+  
+  #namebox{      
+    background: var(--text-background-color);
+    padding: 0.5rem;
+    border: 0.125vmin solid var(--textbox-border-color);
+    position: absolute;
+    bottom: 76.5%;
+    left: 5.5%;
+  }
+  
+  #optionsbox{
+      color:blue;
+  }
+  
+  #optionsbox > div:hover{
+      color:red;
+      cursor:pointer;
+  }
+  
+  /* character sprite */
+
+  #spritebox{
+      max-width: 25%;
+      z-index: -1;
+      position: absolute;
+      bottom: 0%; 
+  }
+  
+  .rightalign{
+      right: 10%;
+      bottom:-5%;
+  }
+  
+  .leftalign{
+      left: 1.5%;
+  }
+  
+  #spritebox img{
+      max-width:100%;
+  }
+  
